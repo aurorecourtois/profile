@@ -1,0 +1,114 @@
+/* Here goes your CSS */
+body {
+  background-color: #C0E0DE
+}
+
+h1, h3{
+  color: #4D575B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #F87060;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4, h5 {
+  color: #71797C;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #4D575B;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+ul {
+  font-family: 'Open Sans', sans-serif;
+  color: #4D575B;
+}
+
+a {
+  text-decoration: none;
+  color: #71797C;
+}
+
+a:hover {
+  color: #F87060;
+}
+
+table td {
+  width: 75%;
+  text-align: justify;
+}
+
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.card {
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 6px;                         /* Small radius */
+  box-shadow: 2px 2px 3px #82898C;
+  margin: 20px;
+  width: 600px;
+}
+
+.card_header {
+  /*background: rgba(79, 124, 172, 0.2);*/                          /* White background */
+
+  background: white;
+  padding: 30px;                              /* Internal space */
+  border-radius: 6px;                         /* Small radius */
+  box-shadow: 2px 2px 3px #82898C;
+  margin: 20px;
+  width: 600px;
+  /*border-top: 5px dotted #82898C;
+  border-right: 5px dotted #82898C;
+  border-bottom: 5px dotted #82898C;
+  border-left: 5px dotted #82898C;*/
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 5px 5px 3px #82898C;
+  border: 5px solid #F87060;
+}
+
+#logo {
+  width: 100px;
+}
+
+.btn-blue {
+  background: #F87060;
+  padding: 15px;                              /* Internal space */
+  border-radius: 6px;                         /* Small radius */
+  box-shadow: 2px 2px 3px #82898C;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.btn-blue:hover {
+  background: #C0E0DE;
+  color: #F87060;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline li i {
+  font-size: 40px;
+}
